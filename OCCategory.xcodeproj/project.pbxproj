@@ -21,6 +21,11 @@
 		A46255971B537EB8004A76B2 /* NSDateFormatter+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A46255961B537EB8004A76B2 /* NSDateFormatter+extension.m */; };
 		A462559B1B538063004A76B2 /* NSIndexPath+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A462559A1B538063004A76B2 /* NSIndexPath+extension.m */; };
 		A462559F1B53823D004A76B2 /* NSURL+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A462559E1B53823D004A76B2 /* NSURL+extension.m */; };
+		A47B57AE1B591F930017C761 /* NSDate+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57AD1B591F930017C761 /* NSDate+extension.m */; };
+		A47B57BC1B5929D50017C761 /* NSData+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57BB1B5929D50017C761 /* NSData+extension.m */; };
+		A47B57BF1B592F140017C761 /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57BE1B592F140017C761 /* NSDictionary+extension.m */; };
+		A47B57C21B5931BD0017C761 /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57C11B5931BD0017C761 /* NSString+extension.m */; };
+		A47B57C51B59358E0017C761 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57C41B59358E0017C761 /* NSString+RegexCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,16 @@
 		A462559A1B538063004A76B2 /* NSIndexPath+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+extension.m"; sourceTree = "<group>"; };
 		A462559D1B53823D004A76B2 /* NSURL+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+extension.h"; sourceTree = "<group>"; };
 		A462559E1B53823D004A76B2 /* NSURL+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+extension.m"; sourceTree = "<group>"; };
+		A47B57AC1B591F930017C761 /* NSDate+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+extension.h"; sourceTree = "<group>"; };
+		A47B57AD1B591F930017C761 /* NSDate+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+extension.m"; sourceTree = "<group>"; };
+		A47B57BA1B5929D50017C761 /* NSData+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+extension.h"; sourceTree = "<group>"; };
+		A47B57BB1B5929D50017C761 /* NSData+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+extension.m"; sourceTree = "<group>"; };
+		A47B57BD1B592F140017C761 /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
+		A47B57BE1B592F140017C761 /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
+		A47B57C01B5931BD0017C761 /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		A47B57C11B5931BD0017C761 /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
+		A47B57C31B59358E0017C761 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		A47B57C41B59358E0017C761 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +167,14 @@
 		A46255831B537493004A76B2 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				A47B57AF1B5928CF0017C761 /* NSArray */,
+				A47B57B51B5928CF0017C761 /* NSDictionary */,
+				A47B57B61B5928CF0017C761 /* NSObject */,
+				A47B57B71B5928CF0017C761 /* NSString */,
+				A47B57B81B5928CF0017C761 /* NSTimer */,
+				A47B57B11B5928CF0017C761 /* NSData */,
+				A47B57B01B5928CF0017C761 /* NSBundle */,
+				A47B57AB1B591F3D0017C761 /* NSDate */,
 				A462559C1B538221004A76B2 /* NSURL */,
 				A46255981B538053004A76B2 /* NSIndexPath */,
 				A46255941B537E78004A76B2 /* NSDateFormatter */,
@@ -216,6 +239,72 @@
 				A462559E1B53823D004A76B2 /* NSURL+extension.m */,
 			);
 			path = NSURL;
+			sourceTree = "<group>";
+		};
+		A47B57AB1B591F3D0017C761 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				A47B57AC1B591F930017C761 /* NSDate+extension.h */,
+				A47B57AD1B591F930017C761 /* NSDate+extension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		A47B57AF1B5928CF0017C761 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		A47B57B01B5928CF0017C761 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		A47B57B11B5928CF0017C761 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				A47B57BA1B5929D50017C761 /* NSData+extension.h */,
+				A47B57BB1B5929D50017C761 /* NSData+extension.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		A47B57B51B5928CF0017C761 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A47B57BD1B592F140017C761 /* NSDictionary+extension.h */,
+				A47B57BE1B592F140017C761 /* NSDictionary+extension.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		A47B57B61B5928CF0017C761 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		A47B57B71B5928CF0017C761 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				A47B57C31B59358E0017C761 /* NSString+RegexCategory.h */,
+				A47B57C41B59358E0017C761 /* NSString+RegexCategory.m */,
+				A47B57C01B5931BD0017C761 /* NSString+extension.h */,
+				A47B57C11B5931BD0017C761 /* NSString+extension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		A47B57B81B5928CF0017C761 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,16 +407,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47B57BF1B592F140017C761 /* NSDictionary+extension.m in Sources */,
+				A47B57BC1B5929D50017C761 /* NSData+extension.m in Sources */,
+				A47B57AE1B591F930017C761 /* NSDate+extension.m in Sources */,
 				A462559F1B53823D004A76B2 /* NSURL+extension.m in Sources */,
 				A46255871B5374F2004A76B2 /* NSFileHandle+extension.m in Sources */,
 				A462559B1B538063004A76B2 /* NSIndexPath+extension.m in Sources */,
 				A46255971B537EB8004A76B2 /* NSDateFormatter+extension.m in Sources */,
+				A47B57C21B5931BD0017C761 /* NSString+extension.m in Sources */,
 				A46255931B537C35004A76B2 /* NSNumber+extension.m in Sources */,
 				A46255651B53742B004A76B2 /* ViewController.m in Sources */,
 				A46255621B53742B004A76B2 /* AppDelegate.m in Sources */,
 				A462558C1B537787004A76B2 /* NSNotificationCenter+extension.m in Sources */,
 				A462555F1B53742B004A76B2 /* main.m in Sources */,
 				A46255901B5379B4004A76B2 /* NSDecimalNumber+extension.m in Sources */,
+				A47B57C51B59358E0017C761 /* NSString+RegexCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +616,7 @@
 				A462557E1B53742C004A76B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A462557F1B53742C004A76B2 /* Build configuration list for PBXNativeTarget "OCCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +625,7 @@
 				A46255811B53742C004A76B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
