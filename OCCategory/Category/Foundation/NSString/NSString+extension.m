@@ -291,4 +291,38 @@
     return l + (int)ceilf((float)(a + b) / 2.0);
 }
 
+- (BOOL)sexInfo {
+    NSInteger sex = 0;
+    if(self.length == 15) {
+        sex = [[self substringFromIndex:14] integerValue];
+    } else if(self.length == 18) {
+        sex = [[self substringWithRange:NSMakeRange(16, 1)] integerValue];
+    }
+    return sex %2 == 0?NO:YES;
+}
+
+- (NSString *)stringToNewFormat:(NSString*)newFormat {
+    NSString *dateString = self;
+    NSString *oldFormat = @"yyyy-MM-dd HH:mm:ss";
+    return  [dateString stringOldFormat:[oldFormat substringToIndex:dateString.length] toNewFormat:newFormat];
+}
+
+- (NSString *)stringOldFormat:(NSString*)oldFormat toNewFormat:(NSString*)newFormat {
+    NSString *dateString = self;
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:oldFormat];
+    NSDate *date = [dateFormat dateFromString:dateString];
+    [dateFormat setDateFormat:oldFormat];
+    dateString = [dateFormat stringFromDate:date];
+    return dateString;
+    
+    
+}
+
+- (NSDate *)stringToDate:(NSString *)format {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:format];
+    return [dateFormatter dateFromString:self];
+}
+
 @end

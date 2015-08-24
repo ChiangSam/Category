@@ -12,42 +12,42 @@
 @interface NSIndexPath (extension)
 
 /**
- *  去row的前一项
+ *  取row的前一项
  *
  *  @return NSIndexPath
  */
 - (NSIndexPath *)previousRow;
 
 /**
- *  去row的后一项
+ *  取row的后一项
  *
  *  @return NSIndexPath
  */
 - (NSIndexPath *)nextRow;
 
 /**
- *  去item的前一项
+ *  取item的前一项
  *
  *  @return NSIndexPath
  */
 - (NSIndexPath *)previousItem;
 
 /**
- *  去item的后一项
+ *  取item的后一项
  *
  *  @return NSIndexPath
  */
 - (NSIndexPath *)nextItem;
 
 /**
- *  去Section的前一项
+ *  取Section的前一项
  *
  *  @return NSIndexPath
  */
 - (NSIndexPath *)previousSection;
 
 /**
- *  去Section的后一项
+ *  取Section的后一项
  *
  *  @return NSIndexPath
  */
