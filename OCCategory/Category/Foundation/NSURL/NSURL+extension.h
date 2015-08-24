@@ -11,11 +11,19 @@
 @interface NSURL (extension)
 
 /**
- *  取出URL中的参数
+ *  取出 URL 中的参数
  *
  *  @return NSDictionary
  */
 - (NSDictionary *)parameter;
+
+/**
+ *  取出 URL 参数的值
+ *
+ *  @param parameterKey Key
+ *
+ *  @return Value
+ */
 - (NSString *)valueForParameter:(NSString *)parameterKey;
 
 @end

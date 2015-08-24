@@ -36,7 +36,7 @@ typedef NSUInteger NSStringScoreOption;
  *  @param font  字体
  *  @param width 最大的宽/高
  *
- *  @return <#return value description#>
+ *  @return
  */
 - (CGSize)sizeWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
 - (CGSize)sizeWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
@@ -110,5 +110,40 @@ typedef NSUInteger NSStringScoreOption;
  *  @return 字数
  */
 - (NSInteger)wordsCount;
+
+/**
+ *  从身份证上判断sex信息
+ *
+ *  @return
+ */
+- (BOOL)sexInfo;
+
+/**
+ *  时间格式转换    默认老的日期格式是yyyy-MM-dd HH:mm:ss
+ *
+ *  @param newFormat
+ *
+ *  @return
+ */
+- (NSString *)stringToNewFormat:(NSString*)newFormat;
+
+/**
+ *  从老的日期格式转换成新的日期格式
+ *
+ *  @param oldFormat 旧日期格式
+ *  @param newFormat 新日期格式
+ *
+ *  @return
+ */
+- (NSString *)stringOldFormat:(NSString*)oldFormat toNewFormat:(NSString*)newFormat;
+
+/**
+ *  string转date
+ *
+ *  @param format
+ *
+ *  @return
+ */
+- (NSDate *)stringToDate:(NSString *)format;
 
 @end

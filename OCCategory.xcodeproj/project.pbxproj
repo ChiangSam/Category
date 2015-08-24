@@ -21,11 +21,16 @@
 		A46255971B537EB8004A76B2 /* NSDateFormatter+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A46255961B537EB8004A76B2 /* NSDateFormatter+extension.m */; };
 		A462559B1B538063004A76B2 /* NSIndexPath+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A462559A1B538063004A76B2 /* NSIndexPath+extension.m */; };
 		A462559F1B53823D004A76B2 /* NSURL+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A462559E1B53823D004A76B2 /* NSURL+extension.m */; };
+		A4640CFD1B8B1F78004205DF /* NSTimer+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4640CFC1B8B1F78004205DF /* NSTimer+extension.m */; };
+		A4640D061B8B3246004205DF /* CATransaction+AnimateWithDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A4640D051B8B3246004205DF /* CATransaction+AnimateWithDuration.m */; };
 		A47B57AE1B591F930017C761 /* NSDate+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57AD1B591F930017C761 /* NSDate+extension.m */; };
 		A47B57BC1B5929D50017C761 /* NSData+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57BB1B5929D50017C761 /* NSData+extension.m */; };
 		A47B57BF1B592F140017C761 /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57BE1B592F140017C761 /* NSDictionary+extension.m */; };
 		A47B57C21B5931BD0017C761 /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57C11B5931BD0017C761 /* NSString+extension.m */; };
 		A47B57C51B59358E0017C761 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B57C41B59358E0017C761 /* NSString+RegexCategory.m */; };
+		A4856E441B59FA0E00FDB75D /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856E431B59FA0E00FDB75D /* NSArray+extension.m */; };
+		A4856E471B59FB0E00FDB75D /* NSObject+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856E461B59FB0E00FDB75D /* NSObject+extension.m */; };
+		A4856E4B1B5A06B400FDB75D /* NSUserDefaults+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856E4A1B5A06B400FDB75D /* NSUserDefaults+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,10 @@
 		A462559A1B538063004A76B2 /* NSIndexPath+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+extension.m"; sourceTree = "<group>"; };
 		A462559D1B53823D004A76B2 /* NSURL+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+extension.h"; sourceTree = "<group>"; };
 		A462559E1B53823D004A76B2 /* NSURL+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+extension.m"; sourceTree = "<group>"; };
+		A4640CFB1B8B1F78004205DF /* NSTimer+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+extension.h"; sourceTree = "<group>"; };
+		A4640CFC1B8B1F78004205DF /* NSTimer+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+extension.m"; sourceTree = "<group>"; };
+		A4640D041B8B3246004205DF /* CATransaction+AnimateWithDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+AnimateWithDuration.h"; sourceTree = "<group>"; };
+		A4640D051B8B3246004205DF /* CATransaction+AnimateWithDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+AnimateWithDuration.m"; sourceTree = "<group>"; };
 		A47B57AC1B591F930017C761 /* NSDate+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+extension.h"; sourceTree = "<group>"; };
 		A47B57AD1B591F930017C761 /* NSDate+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+extension.m"; sourceTree = "<group>"; };
 		A47B57BA1B5929D50017C761 /* NSData+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+extension.h"; sourceTree = "<group>"; };
@@ -76,6 +85,12 @@
 		A47B57C11B5931BD0017C761 /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
 		A47B57C31B59358E0017C761 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
 		A47B57C41B59358E0017C761 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		A4856E421B59FA0E00FDB75D /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
+		A4856E431B59FA0E00FDB75D /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
+		A4856E451B59FB0E00FDB75D /* NSObject+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+extension.h"; sourceTree = "<group>"; };
+		A4856E461B59FB0E00FDB75D /* NSObject+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+extension.m"; sourceTree = "<group>"; };
+		A4856E491B5A06B400FDB75D /* NSUserDefaults+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+extension.h"; sourceTree = "<group>"; };
+		A4856E4A1B5A06B400FDB75D /* NSUserDefaults+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +174,7 @@
 		A46255821B537493004A76B2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A4640CFE1B8B31BA004205DF /* QuartzCore */,
 				A46255831B537493004A76B2 /* Foundation */,
 			);
 			path = Category;
@@ -167,6 +183,7 @@
 		A46255831B537493004A76B2 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				A4856E481B5A06A400FDB75D /* NSUserDefaults */,
 				A47B57AF1B5928CF0017C761 /* NSArray */,
 				A47B57B51B5928CF0017C761 /* NSDictionary */,
 				A47B57B61B5928CF0017C761 /* NSObject */,
@@ -241,6 +258,55 @@
 			path = NSURL;
 			sourceTree = "<group>";
 		};
+		A4640CFE1B8B31BA004205DF /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				A4640D031B8B31BA004205DF /* CATransaction */,
+				A4640CFF1B8B31BA004205DF /* CAAnimation */,
+				A4640D001B8B31BA004205DF /* CALayer */,
+				A4640D011B8B31BA004205DF /* CAMediaTimingFunction */,
+				A4640D021B8B31BA004205DF /* CAShapeLayer */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
+		A4640CFF1B8B31BA004205DF /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		A4640D001B8B31BA004205DF /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		A4640D011B8B31BA004205DF /* CAMediaTimingFunction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAMediaTimingFunction;
+			sourceTree = "<group>";
+		};
+		A4640D021B8B31BA004205DF /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		A4640D031B8B31BA004205DF /* CATransaction */ = {
+			isa = PBXGroup;
+			children = (
+				A4640D041B8B3246004205DF /* CATransaction+AnimateWithDuration.h */,
+				A4640D051B8B3246004205DF /* CATransaction+AnimateWithDuration.m */,
+			);
+			path = CATransaction;
+			sourceTree = "<group>";
+		};
 		A47B57AB1B591F3D0017C761 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +319,8 @@
 		A47B57AF1B5928CF0017C761 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				A4856E421B59FA0E00FDB75D /* NSArray+extension.h */,
+				A4856E431B59FA0E00FDB75D /* NSArray+extension.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -285,6 +353,8 @@
 		A47B57B61B5928CF0017C761 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				A4856E451B59FB0E00FDB75D /* NSObject+extension.h */,
+				A4856E461B59FB0E00FDB75D /* NSObject+extension.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -303,8 +373,19 @@
 		A47B57B81B5928CF0017C761 /* NSTimer */ = {
 			isa = PBXGroup;
 			children = (
+				A4640CFB1B8B1F78004205DF /* NSTimer+extension.h */,
+				A4640CFC1B8B1F78004205DF /* NSTimer+extension.m */,
 			);
 			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		A4856E481B5A06A400FDB75D /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				A4856E491B5A06B400FDB75D /* NSUserDefaults+extension.h */,
+				A4856E4A1B5A06B400FDB75D /* NSUserDefaults+extension.m */,
+			);
+			path = NSUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,10 +490,15 @@
 			files = (
 				A47B57BF1B592F140017C761 /* NSDictionary+extension.m in Sources */,
 				A47B57BC1B5929D50017C761 /* NSData+extension.m in Sources */,
+				A4856E471B59FB0E00FDB75D /* NSObject+extension.m in Sources */,
 				A47B57AE1B591F930017C761 /* NSDate+extension.m in Sources */,
+				A4640D061B8B3246004205DF /* CATransaction+AnimateWithDuration.m in Sources */,
 				A462559F1B53823D004A76B2 /* NSURL+extension.m in Sources */,
 				A46255871B5374F2004A76B2 /* NSFileHandle+extension.m in Sources */,
 				A462559B1B538063004A76B2 /* NSIndexPath+extension.m in Sources */,
+				A4856E4B1B5A06B400FDB75D /* NSUserDefaults+extension.m in Sources */,
+				A4640CFD1B8B1F78004205DF /* NSTimer+extension.m in Sources */,
+				A4856E441B59FA0E00FDB75D /* NSArray+extension.m in Sources */,
 				A46255971B537EB8004A76B2 /* NSDateFormatter+extension.m in Sources */,
 				A47B57C21B5931BD0017C761 /* NSString+extension.m in Sources */,
 				A46255931B537C35004A76B2 /* NSNumber+extension.m in Sources */,
